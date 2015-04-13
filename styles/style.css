@@ -1,0 +1,57 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+figure {
+    display: inline-block;
+    background-color: #ccc;
+    padding: 5px;
+    text-align: center;
+    min-width: 24%;
+    max-width: 24%;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.blocimg{
+    height: 200px;
+    width: 22%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input {
+    border: 1px solid #bbb;
+    padding: 10px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ddd;
+}
+
+form {
+    display: inline-block;
+}
+
+.error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    width: 100%;
+    margin: 0 auto 20px;
+    padding: 8px 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #fbeed5;
+    border-radius: 4px;
+}
